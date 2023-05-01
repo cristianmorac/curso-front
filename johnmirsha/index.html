@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Opción 1 -->
+    <style>
+      li {
+        color: red;
+      }
+    </style>
+    <link rel="stylesheet" href="estilos.css" />
+    <!-- Obtener un buen SEO -->
+    <!-- Url principal de la página web o importante -->
+    <link rel="canonical" href="https://tudominio.com/la-url-canonica">
+    <!-- iconos de la pestaña del navegador -->
+    <link rel="icon" href="ruta-url-imagen">
+    <link rel="apple-touch-icon" href="ruta-url-imagen">
+    <!-- Cambiar el color de la barra de direcciones en el dispositivo movil, el color debe ser en formato hexadecimal -->
+    <meta name="theme-color" content="#ff6600">
+    <!-- Meta etiquetas para redes sociales -->
+    <!-- Buscar Open Grap -->
+    <!-- Canbia name por property -->
+    <meta property="og:title" content="Document" />
+    <meta property="og:description" content="Fundamentos html">
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:url" content="https://tudominio.com/pagina-principal" />
+    <meta property="og:image" content="https://tudominio.com/ruta-img" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@user-twitter">
+  </head>
+  <body>
+    <!-- Encabezados -->
+    <h1 id="encabezados">Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+    <hr />
+    <!-- Modificar texto -->
+    <b id="modificar">Negrita</b>
+    <i>Cursiva</i>
+    <u>Subrayado</u>
+    <sup>superindice</sup>
+    <sub>subindice</sub>
+    <mark>marcar texto</mark>
+    <small>letra pequeña</small>
+    <hr />
+    <!-- Semantica en el texto que tenga un significado -->
+    <strong id="semantica">Importancia a un texto</strong>
+    <em>Enfasis en el texto</em>
+    <blockquote>identación</blockquote>
+    <cite>citas bibliograficas</cite>
+    <hr />
+    <!-- Etiquetas de salto -->
+    <!-- Saltos de linea -->
+    <br />
+    <!-- salto semantico con linea horizontal -->
+    <hr />
+    <code>Texto como código</code>
+    <!-- Formateos -->
+    <pre>
+      pruebas
+      con salto de linea
+    </pre>
+    &lt; &gt;
+    <!-- Etiquetas de estructura -->
+    <div></div>
+    <header></header>
+    <main></main>
+    <nav></nav>
+    <article></article>
+    <aside></aside>
+    <section></section>
+    <address></address>
+    <!-- Imagenes -->
+    <figure>
+      <img src="" alt="texto alternativo" />
+      <figcaption>texto debajo</figcaption>
+    </figure>
+    <!-- listas -->
+    <!-- ordenadas -->
+    <ol type="I">
+      <li>Elemento ordenado 1</li>
+      <li>Elemento ordenado 2</li>
+      <li>Elemento ordenado 3</li>
+    </ol>
+    <!-- Desordenado -->
+    <ul>
+      <li>elemento desordenado 1</li>
+      <li>elemento desordenado 2</li>
+      <li>elemento desordenado 3</li>
+    </ul>
+    <!-- De definición -->
+    <dl>
+      <dt>HTML</dt>
+      <dd>Lenguaje de marcado</dd>
+      <dt>CSS</dt>
+      <dd>Hojas de estilo</dd>
+    </dl>
+    <!-- Tabla -->
+    <table>
+      <!-- Columna -->
+      <tr>
+        <!-- Filas -->
+        <td>Nombre</td>
+        <td>CO Constelación</td>
+        <td>fila</td>
+      </tr>
+      <!-- Columna -->
+      <tr>
+        <!-- Filas -->
+        <td>Ikki</td>
+        <td>Fénix</td>
+        <td>Bronce</td>
+      </tr>
+    </table>
+    <!-- Agrupación de tablas -->
+    <table>
+      <thead>
+        <!-- Utilizar mas columnas -->
+        <tr>
+          <th colspan="3">Caballeros del zodiaco</th>
+        </tr>
+        <tr>
+          <!-- Filas en negrita-->
+          <th>Nombre</th>
+          <!-- ocupar mas filas -->
+          <th>Constelación</th>
+          <th>fila</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- Filas -->
+          <td>Ikki</td>
+          <td rowspan="2">Fénix</td>
+          <td>Bronce</td>
+        </tr>
+        <tr>
+          <td>seiya</td>
+          <td>Bronce</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="3">Saint Seiya</th>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- Enlaces internos -->
+    <ul id="inicio">
+      <li><a href="index.html#encabezados">encabezado</a></li>
+      <li><a href="index.html#modificar">modificar texto</a></li>
+      <li><a href="index.html#semantica">semantica</a></li>
+    </ul>
+    <!-- Acceder a otros protocolos -->
+    <!-- enlace correo electronico -->
+    <a href="mailto:correo@gmail.com.co">correo electronico</a>
+    <!-- enlace telefono -->
+    <a href="tel:573213304120">telefono</a>
+    <!-- enlace whatsapp -->
+    <a href="https://api.whatsapp.com/send?phone=573102451344">whatsapp</a>
+    <!-- Elementos interactivos -->
+    <button>Botones</button>
+    <details open>
+      <summary>Titulo del acordeon</summary>
+      <article>Contenido del acordeon</article>
+      <p>parrafo</p>
+    </details>
+    <dialog open>modal, ventana emergente</dialog>
+    <audio src="" controls>Etiqueta de audio</audio>
+    <video src="" controls>Etiqueta de video</video>
+    <iframe src="" frameborder="0"></iframe>
+    <!-- Formularios -->
+    <input type="text" name="" id="" />
+    <input type="checkbox" name="" id="" />
+    <input type="radio" name="" id="" />
+    <input type="button" value="boton" />
+    <input type="submit" />
+    <input type="reset" />
+    <input type="file" name="" id="" multiple />
+    <input type="hidden" name="" />
+    <input type="email" name="" id="" />
+    <input type="number" name="" id="" />
+    <input type="tel" name="" id="" />
+    <input type="password" name="" id="" />
+    <input type="search" name="" id="" />
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <select name="" id="" multiple>
+      <option value="HTML">HTML</option>
+      <option value="CSS">CSS</option>
+    </select>
+    <!-- Crear un formulario -->
+    <h3>Formulario</h3>
+    <!-- !action: hacia donde se va enviar el formulario, si no lo colocamos se procesa en la misma página -->
+    <!-- ! method se puede enviar por GET o POST peticiones http-->
+    <!--  ! autocomplete=off no completa en los inputs -->
+    <form action="" method="get" autocomplete="off">
+      <!-- ! name: Nombre de la variable input -->
+      <label for="usuario">Usuario:</label>
+      <input
+        type="text"
+        name="usuario"
+        placeholder="Usuario"
+        required
+        pattern="^[A-Za-z]+$"
+        title="Información"
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" placeholder="COntraseña" />
+      <br />
+      <input type="submit" value="Enviar" />
+      <br />
+      <input type="reset" value="reiniciar" />
+    </form>
+    <!-- Selectores, radios y checkbox -->
+    <form action="">
+      <p>elija su idioma</p>
+      <select name="idioma" multiple required>
+        <option value="es">Español</option>
+        <option value="en" selected>Ingles</option>
+        <option value="fr">Frances</option>
+      </select>
+      <p>Elige tu lenguaje de programación favorito</p>
+      <!-- ! El valor name para los radio debe ser igual -->
+      <input type="radio" name="lenguaje" id="radio-js" value="js" required>
+      <label for="radio-js">JavaScript</label>
+      <input type="radio" name="lenguaje" id="radio-py" value="js" checked>
+      <label for="radio-py">python</label>
+      <input type="radio" name="lenguaje" id="radio-php" value="php">
+      <label for="radio-php">PHP</label>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Reiniciar">
+      <p>Elige tus intereses</p>
+      <label>
+        <input type="checkbox" name="interes-deportes" value="deportes">Deportes
+      </label>
+      <label>
+        <input type="checkbox" name="interes-finanzas" value="finanzas">Finanzas
+      </label>
+      <label>
+        <input type="checkbox" name="interes-salud" value="salud">salud
+      </label>
+    </form>
+    <!-- Formaulario de contacto -->
+    <form action="https://formsubmit.co/cristianfmorac@gmail.com" method="POST">
+      <input type="text" name="nombre" placeholder="Nombre" 
+      pattern="^[A-Za-zÑñáÁéÉíÍóÓúÚüÜ\s]+$" 
+      title="Nombre solo acepta letras y espacios en blanco" required>
+      <input type="email" name="correo" placeholder="correo"
+      pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+      title="Formato de correo inválido" required>
+      <textarea name="comentarios"  cols="30" rows="10" required></textarea>
+      <input type="submit" value="enviar"> 
+    </form>
+    <!-- Data Attributes -->
+    <ul>
+      <li data-id="1" data-name="spring">Primavera</li>
+      <li data-id="2" data-name="summer">Verano</li>
+      <li data-id="3" data-name="autumn">Otoño</li>
+      <li data-id="4" data-name="winter">Invierno</li>
+    </ul>
+    <!-- Accesibilidad web -->
+    <h3 role="title">Las estaciones del año</h3>
+    <ul role="list">
+      <li tabindex="1" role="listitem">Primavera</li>
+      <li tabindex="2" role="listitem">Verano</li>
+      <li tabindex="3" role="listitem">Otoño</li>
+      <li tabindex="4" role="listitem">Invierno</li>
+    </ul>
+    <a href="#" role="link" target="_blank" aria-label="Enlace para mas información">para mas información ...</a>
+    <script>
+      console.log("Hola mundo");
+    </script>
+    <script src="codigo.js"></script>
+  </body>
+</html>
